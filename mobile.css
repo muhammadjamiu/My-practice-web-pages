@@ -1,0 +1,162 @@
+@media(max-width: 500px; ) {
+    nav {
+        padding: 5px;
+        flex-direction: column;
+        align-items: center;
+        height: 50px;
+    }
+}
+
+nav .logo {
+
+    margin-left: 80px;
+    margin-top: 5px;
+
+
+}
+
+li a {
+
+    text-decoration: none;
+    padding: 10px;
+    font-size: 10px;
+    color: white;
+}
+
+ul {
+
+    list-style: none;
+    padding-top: 10px;
+    display: flex;
+    margin-right: 50px;
+
+}
+
+a:hover {
+    color: coral;
+
+
+}
+
+.bg {
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.head {
+    background-color: ;
+    margin-right: 20em;
+}
+
+.section h1 {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 1px;
+
+}
+
+.section h3 {
+    letter-spacing: 3px;
+    font-size: 10px;
+    color: #c5aa6a;
+    font-family: allura;
+    margin-top: 1em;
+}
+
+.landingpage {
+    background-color: aliceblue;
+    flex-direction: column;
+    margin: 10px;
+    justify-content: space-between;
+}
+
+.landingpage .image {
+    background-color: #f0f5f4;
+    ;
+    padding: 15px;
+    margin: 15px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 1em;
+
+}
+
+.landingpage .script h2 {
+    background-color: #c5aa6a;
+    color: #fff;
+    font-family: allura;
+    width: 100px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin: 30px;
+    margin-left: 7em;
+    text-align: center;
+    padding: 20px 20px;
+}
+
+
+button {
+
+
+    font-size: 10px;
+    margin-left: 10em;
+    margin-top: 10px 10px;
+
+    border-radius: 2px;
+    border-width: 3px;
+    border: 1px solid#c5aa6a;
+    text-align: center;
+    justify-content: center;
+    background-color: #c5aa6a;
+    ;
+}
+
+button a {
+    text-decoration: none;
+    color: #fff;
+    padding: 3px;
+
+}
+
+button:hover {
+    color: aliceblue;
+    background-color: #5f4c4c;
+
+}
+
+.fig {
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    border: #c5aa6a 1px solid;
+    margin-left: 2em;
+    padding-left: 30px;
+
+}
+
+.fighead {
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1.7em;
+    font-size: 20px;
+    color: #c5aa6a;
+}
+
+@media(max-width: 500px) {
+
+    #footer {
+        flex-direction: column;
+        background-color: #4e4e4e;
+        width: 70%;
+
+
+    }
+}
+
+.sect-01 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
