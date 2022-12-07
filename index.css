@@ -57,9 +57,9 @@ body {
 
 .nav-link li a:hover {
 
-    background-color: #fff;
+    background-color: #00c2ff;
     cursor: pointer;
-    color: black;
+    color: #fff;
 }
 
 .toggle-button {
@@ -116,7 +116,7 @@ body {
 /*ending of R-nav*/
 
 .ovaley2 {
-    color: #c5aa6a;
+    color: #fff;
     border: 1px solid #c5aa6a;
     display: block;
     width: 300px;
@@ -130,35 +130,36 @@ body {
     z-index: 0;
 }
 
-/*
+
 .hd1{
   font-family: allura;
   color: #dc6539;
 }
 
+
 .hd2{
   font-family: allura;
-  color: #c5aa6a;
+  color: #fff;
 
-}*/
+}
 
 .ovaley2 a {
     text-decoration: none;
     color: white;
-    background-color: coral;
+    background-color: #00c2ff;
     border-top-right-radius: 25px;
     border-bottom-left-radius: 25px;
     padding: 15px;
     font-size: 19px;
     margin-bottom: 20px;
-    letter-spacing: 2px;
-    box-shadow: 10px 10px 10px gray;
-
+    letter-spacing: 2px; 
 }
 
+
 .ovaley2 a:hover {
-    background-color: #c5aa6a;
+    background-color: coral;
     transition: scale(5s);
+    box-shadow: 10px 10px 10px gray;
 }
 
 .section {
@@ -179,25 +180,30 @@ body {
     text-align: center;
     font-size: 60px;
     letter-spacing: 5px;
+    font-family: sans-serif;
 
+}
+
+.overlay .hd1{
+    color: #00c2ff;
 }
 
 hr {
     margin-top: 0;
     padding-top: 0;
     width: 18em;
-    box-shadow: 10px 10px 10px aliceblue;
+    box-shadow: 10px 10px 10px #00c2ff;
 
 }
 
 
 .overlay {
     padding-top: 1em;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.5);
     height: 1600px;
 }
 
-/*continue*/
+
 
 .landingpage {
     background-color: white;
@@ -210,7 +216,7 @@ hr {
 
 .script h2 {
     font-family: allura;
-    color: #5f4c4c;
+    color: #2d353c;
     font-size: 5rem;
     margin-top: 1em;
     padding: 20px;
@@ -233,18 +239,18 @@ hr {
 button {
     padding: 10px;
     font-size: 20px;
-    color: lightsalmon;
+    color: black;
     margin-right: 10px;
     margin-top: 20px;
     border-radius: 5px;
     border-width: 5px;
     border: 1px solid#c5aa6a;
-    background-color: #c5aa6a;
+    background-color: #00c2ff;
     margin-bottom: 30px;
 }
 
 
-button a {
+button a{
     text-decoration: none;
     color: white;
 
@@ -252,70 +258,70 @@ button a {
 
 button:hover {
     color: aliceblue;
-    background-color: #5f4c4c;
+    background-color: coral;
 
 }
 
 .script span {
-    color: #c5aa6a;
+    color: #00c2ff;
+}
+.cova-con{
+    margin-top: 5em;
+}
+
+.contain-all{
+background-image: url('../Images/i.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+height: 900px;
+padding-top: 40px;
+margin-bottom: 5em;
+margin-top: 10em;
 }
 
 
-.fig {
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-    border: #c5aa6a 1px solid;
-    margin-left: 4em;
-    margin-right: 4em;
-    margin-bottom: 5em;
-    background-color: #2d353c;
-    border: solid 1px #555;
-    box-shadow: 10px 10px 10px lightblue;
+.contain-all .figure img{
+ width: 100px;
+ float: left;
+ border-radius: 50%;
+ margin-right: 20px;
 }
 
-.fighead {
-    text-align: center;
-    margin-top: 3em;
-    margin-bottom: 1.7em;
-    font-size: 2rem;
+
+.contain-all h2{
     color: #2d353c;
-
-}
-
-figure {
-    margin: 0;
-    padding: 0;
-}
-
-figure img {
-    width: 150px;
-    height: 150px;
-    margin-left: 3em;
-    padding: 10px;
-    border-radius: 50%;
-}
-
-figcaption {
-    font-weight: bold;
-    color: #c5aa6a;
     text-align: center;
+    padding-bottom: 20px;
+    font-size: 40px;
 }
 
-blockquote {
-    color: #fff;
-    padding: 30px;
-    font-size: 15px;
+
+.contain-all .figure{
+    padding: 20px;
+    margin-bottom: 40px;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 30em;
+    margin-left: 4em;
 
 }
 
-#cover {
-    background-color: darkslategray;
+
+.contain-all .figure p{
+color: #fff;
+font-size: 17px;
+}
+
+
+.contain-all .figure h3{
+    color: lightgrey;
+}
+
+#cover{
+    background-color: #f0f5f4;
     height: 800px;
     width: 98%;
     padding: 3em;
     margin-bottom: 10em;
-
 
 }
 
@@ -326,6 +332,7 @@ blockquote {
     padding-top: 2em;
     padding-bottom: 10px;
     font-size: 2rem;
+    color: black;
 }
 
 .sect-01 {
@@ -336,8 +343,8 @@ blockquote {
 
 }
 
-.valu {
-    background-color: #f0f5f4;
+.valu{
+    background-color: rgb(220, 220, 220);
     width: fit-content;
     height: 250px;
     padding: 15px;
@@ -346,7 +353,7 @@ blockquote {
 
 
 .valu1 {
-    background-color: #fff;
+    background-color: rgb(254, 254, 254);
     width: fit-content;
     height: 200px;
     text-align: center;
@@ -361,25 +368,25 @@ blockquote {
 }
 
 .text h3 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: sans-serif;
     padding-top: 10px;
     font-size: 1rem;
-    color: #c5aa6a;
+    color: #00c2ff;
 
 
 }
 
 .text h5 {
-
+ font-family: sans-serif;
     letter-spacing: 1px;
-    font-size: 20px;
-    color: rgb(116, 114, 114);
+    font-size: 15px;
+    color: black;
     line-height: 25px;
 }
 
-.link {
+.link{
     width: fit-content;
-    background-color: #c5aa6a;
+    background-color: #00c2ff;
     margin-left: 35em;
     border-top-right-radius: 40px;
     border-bottom-left-radius: 40px;
@@ -403,119 +410,150 @@ blockquote {
     font-size: 20px;
 }
 
-
-
-
-/*footer from here*/
 #footer {
-    font-display: flex;
-    background-color: #2d353c;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    height: 620px;
 
 
 }
 
-#footer .foot-logo {
-    padding-top: 7em;
-    margin-left: 5em;
-    font-size: 23px;
+#footer .wrapper2 {
+    padding: 90px;
 }
 
-.foot-logo .sp1 {
-    color: #dc6539;
-}
-
-.foot-logo .sp2 {
-    color: #c5aa6a;
-}
-
-.container {
+.wrapper2 .container_02 {
     display: flex;
+}
+
+.container_02 .icon {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.container_02 .icon i {
+
+    padding: 5px;
 
 }
 
-.container form .f1 {
-    color: #c5aa6a;
+.icon .fa-facebook {
+    color: #4267B2;
+    font-size: 30px;
+    width: 80px;
+    width: fit-content;
+    background-color: #fff;
 }
 
-.container form .f2 {
-    color: coral;
+.icon .fa-instagram {
+    color: #E1306C;
+    font-size: 30px;
+    width: 80px;
+    width: fit-content;
+    background-color: #fff;
+    margin-left: 20px;
+}
+
+.icon .fa-twitter {
+    color: #1DA1F2;
+    font-size: 30px;
+    width: 80px;
+    background-color: #fff;
+    width: fit-content;
+    margin-left: 20px;
+
+}
+
+.container_02 p {
+    font-size: 16px;
+    line-height: 28px;
     font-family: sans-serif;
-    font-size: 15px;
+
+
+}
+
+.container_02 .div2 p {
+    color: white;
+}
+
+.container_02 .h2 {
+    margin-bottom: 1em;
+    letter-spacing: 3px;
+
+    font-size: 20px;
+    color: darkgray;
+
+}
+
+.container_02 h2 {
+    color: white;
+}
+
+.container_02 .div1 h2 .sp1 {
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.container_02 .div1 h2 .sp2 {
+    color: #00c2ff;
+    font-family: sans-serif;
+}
+
+.container_02 .div1 img {
+    width: 85px;
+    height: 70px;
 }
 
 
-form input[type=text] {
-    outline: 0;
-    width: 100%;
-    margin: 10px;
-    background-color: #2d353c;
-    padding: 10px;
-    color: gainsboro;
-    border-width: 0 0 1px;
-    border-color: gainsboro;
+.container_02 .div1 {
+    margin-right: 25em;
 }
 
-
-form input[type=submit] {
-    width: 50%;
-    background-color: #868f96;
-    padding: 7px;
-    border-radius: 5px;
-    color: gainsboro;
-}
-
-form input[type=email] {
-    outline: 0;
-    background-color: #2d353c;
-    width: 100%;
-    padding: 10px;
-    border-width: 0 0 1px;
-    border-color: gainsboro;
-    color: gainsboro;
-}
-
-.add {
-    margin-left: 10em;
+.container_02 .div1 .media2 {
+    color: darkgray;
+    margin-top: 5em;
+    margin-bottom: 1.9em;
+    font-size: 21px;
     letter-spacing: 1px;
 }
 
-.wrapper {
-    margin-left: 5em;
-    padding-top: 3em;
-
+.container_02 .div2 {
+    margin-right: 10em;
 }
 
-.media1 h3 {
-    text-align: center;
-}
 
-.media1 li {
-
+.container_02 .div3 ul {
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
-.media1 {
-    margin-left: 7em;
-    padding: 10em;
-
+.container_02 .div3 ul a {
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    line-height: 30px;
+    font-family: sans-serif;
 }
 
-select {
-    width: 40%;
-    padding: 7px;
-    border-radius: 5px;
-    background-color: #868f96;
-    margin-right: 10px;
-    color: gainsboro;
+
+.container_02 .div3 ul a:hover {
+    color: #1DA1F2;
+    font-size: 28px;
 }
 
-h1,
-h2,
-h3,
-p {
-    color: gainsboro;
+.container_02 .div3 .cont {
+    margin-top: 50px;
+    color: darkgrey;
 }
 
-form h2 {
-    margin-top: 3em;
+.container_02 .div3 p {
+    color: #fff;
+}
+
+.h{
+    margin-top: 1.9em;
+    width: 70em;
 }
